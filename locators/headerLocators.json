@@ -1,0 +1,9 @@
+{
+    "_alphabinLogo": ".header__logo",
+    "_homeButtonHomePage": "//a[contains(text(), 'Home')]",
+    "_servicesButtonHomePage": ".dropdown",
+    "_aboutUsHomePage": "//a[contains(text(), 'About us')]",
+    "_contactUsHomePage": "//a[contains(text(), 'Contact us')]",
+    "_loginButtonHomePage": "[href='login']",
+    "_signupButtonHomePage": "[href='registration']"
+}

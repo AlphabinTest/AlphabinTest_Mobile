@@ -1,0 +1,6 @@
+{
+    "baseUrl": "demo.alphabin.co",
+    "browserStack":false,
+    "browser":"chrome",
+    "executionmode":"--headed"
+}

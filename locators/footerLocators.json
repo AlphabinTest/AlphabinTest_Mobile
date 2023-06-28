@@ -1,0 +1,19 @@
+{
+    "_alphaTestTitle": "//h4[contains(text(), 'Alpha Test')]",
+    "_alphaTestPara": "//p[contains(text(), 'Lorem ipsum dolor sit')]",
+    "_allServices": "//div[@class='col-lg-2 all-serv']//h5",
+    "_uiTesting": "//div[@class='col-lg-2 all-serv']//p[1]",
+    "_functionalTesting": "//div[@class='col-lg-2 all-serv']//p[2]",
+    "_usabilityTesting": "//div[@class='col-lg-2 all-serv']//p[3]",
+    "_performanceTesting": "//div[@class='col-lg-2 all-serv']//p[4]",
+    "_usefulLinks": "//div[@class='col-lg-2 user-link']//h5",
+    "_aboutUs": "//div[@class='col-lg-2 user-link']//p[1]",
+    "_contactUs": "//div[@class='col-lg-2 user-link']//p[2]",
+    "_blog": "//div[@class='col-lg-2 user-link']//p[3]",
+    "_social": "//div[@class='col-lg-2']//h5",
+    "_linkedinIcon": "[class='bi bi-linkedin']",
+    "_skypeIcon": "[class='bi bi-skype']",
+    "_instagramIcon": "[class='bi bi-instagram icon']",
+    "_facebookIcon": "[class='bi bi-facebook icon']",
+    "_twitterIcon": "[class='bi bi-twitter icon']"
+  }

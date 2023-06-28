@@ -1,0 +1,7 @@
+{
+  "loginUserName": "//input[@name='username']",
+  "loginPassword": "//input[@name='password']",
+  "loginSubmitButton": ".login-btn",
+  "userNameLabel": "[for='username']",
+  "passwordLabel": "[for='password']"
+}

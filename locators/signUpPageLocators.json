@@ -1,0 +1,11 @@
+{
+    "userNameLabel": "[for='firstname']",
+    "emailLabel": "[for='email']",
+    "passwordLabel": "[for='password']",
+    "confirmPasswordLabel": "[for='confirm-password']",
+    "registerSubmitButton": ".registration-btn",
+    "userNameInput": "[name='username']",
+    "emailInput": "[name='email']",
+    "passwordInput": "[name='password1']",
+    "confirmPasswordInput": "[name='password2']"
+  }

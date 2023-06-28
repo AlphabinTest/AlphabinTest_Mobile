@@ -1,0 +1,9 @@
+.env
+.vscode/
+TestResults/
+browserstack.err
+node_modules/
+reports/
+mochawesome-report/
+local.log
+BrowserStackLocal
