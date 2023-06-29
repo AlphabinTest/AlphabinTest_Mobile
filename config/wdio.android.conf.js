@@ -34,7 +34,7 @@ if (browserStack === 'true') {
             'platformName': 'Android',
             maxInstances: 10,
             'appium:deviceName': 'emulator-5554',
-            'appium:platformVersion': '12.0',
+            'appium:platformVersion': '13.0',
             'appium:browserName': 'chrome',
             'appium:orientation': 'PORTRAIT',
             'appium:newCommandTimeout': 240,

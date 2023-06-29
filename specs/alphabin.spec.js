@@ -1,6 +1,4 @@
-const testData = require('../testConfig.json')
 const utils = require('../helpers/utils')
-const { assert, expect } = require('chai')
 const homePage = require('../pageObjects/homePage')
 const signUpPage = require('../pageObjects/signUpPage')
 const loginPage = require('../pageObjects/loginPage')
@@ -12,8 +10,6 @@ const email = `test${currentTimestamp}@gmail.com`;
 describe('Verify the header part of the Home Page', async () => {
   before("Move to home page", async () => {
     await utils.openSite();
-    await utils.waitForPageLoad();
-    await utils.assertCurrentSite(testData.baseUrl);
   })
   it('Verify all the buttons', async () => {
     await homePage.verifyHeaderPageDetails();
@@ -23,8 +19,6 @@ describe('Verify the header part of the Home Page', async () => {
 describe('Verify the Hero page of the Home Page', async () => {
   before("Move to home page", async () => {
     await utils.openSite();
-    await utils.waitForPageLoad();
-    await utils.assertCurrentSite(testData.baseUrl)
   })
   it("Verify the content of Hero page on Home page", async () => {
     await homePage.verifyHeroPageDetails();
@@ -35,8 +29,6 @@ describe('Verify the Hero page of the Home Page', async () => {
 describe('Verify the Footer of the Home page', async () => {
   before("Move to home page", async () => {
     await utils.openSite();
-    await utils.waitForPageLoad();
-    await utils.assertCurrentSite(testData.baseUrl);
   })
   it("Verify the content of Footer section on Home page", async () => {
     await homePage.verifyFooterOfHomePage();
@@ -46,8 +38,6 @@ describe('Verify the Footer of the Home page', async () => {
 describe('verify The user is able to register successfully', async () => {
   before("Move to home page", async () => {
     await utils.openSite();
-    await utils.waitForPageLoad();
-    await utils.assertCurrentSite(testData.baseUrl);
   })
   it('Verify all the elements on the sign up page', async () => {
     await homePage.clickOnSignUpButton();
@@ -62,8 +52,6 @@ describe('verify The user is able to register successfully', async () => {
 describe('Verify the user is able to log in successfully', async () => {
   before("Move to home page", async () => {
     await utils.openSite();
-    await utils.waitForPageLoad();
-    await utils.assertCurrentSite(testData.baseUrl);
   })
   it('Verify all the elements on the login page', async () => {
     await homePage.clickOnLogInButton();
@@ -78,8 +66,6 @@ describe('Verify the user is able to log in successfully', async () => {
 describe('Verify all the services on the Hero Page', async () => {
   before("Move to home page", async () => {
     await utils.openSite();
-    await utils.waitForPageLoad();
-    await utils.assertCurrentSite(testData.baseUrl);
   })
   it('Click on each individual service and verify it', async () => {
     await homePage.verifyServicesOnHomePage();
